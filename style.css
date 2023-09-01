@@ -2,4 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    padding: 1rem;
+}
+
+article {
+    padding: 1rem;
+    
+    border: solid black 1px;
 }

@@ -9,6 +9,10 @@ header {
     padding: 1rem;
 }
 
+header h1 {
+    font-size: 3rem;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,4 +25,16 @@ article {
     padding: 1rem;
     
     border: solid black 1px;
+}
+
+article * {
+    margin-bottom: 1rem;
+}
+
+article h1 {
+    font-size: 2rem;
+}
+
+article h2 {
+    color: gray;
 }

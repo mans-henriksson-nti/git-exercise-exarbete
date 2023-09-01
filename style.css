@@ -27,6 +27,10 @@ article {
     border: solid black 1px;
 }
 
+article header {
+    border-bottom: solid grey 1px;
+}
+
 article header h1 {
     margin-top: 0.5rem;
     
@@ -43,6 +47,7 @@ article img {
     height: 5rem;
     width: 5rem;
     border-radius: 2.5rem;
+    margin: 0.5rem 0;
 }
 
 article > h1, article > h2, article > h3 {
